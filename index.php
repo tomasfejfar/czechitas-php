@@ -1,4 +1,4 @@
 <?php
 $greeting = 'Hello World';
-echo '<h1>' . $greeting . '</h1>';
 ?>
+<h1><?php echo $greeting ?></h1>
