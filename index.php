@@ -2,13 +2,15 @@
 $name = 'Tom';
 $greeting = 'Hello ' . $name;
 
-$hobby1 = 'trekking';
-$hobby2 = 'programování';
+$hobbies = [
+    'trekking',
+    'programování',
+];
 ?>
 <h1><?= $greeting ?></h1>
 
 <h2>Záliby</h2>
 <ul>
-    <li><?= $hobby1 ?></li>
-    <li><?= $hobby2 ?></li>
+    <li><?= $hobbies[0] ?></li>
+    <li><?= $hobbies[1] ?></li>
 </ul>
