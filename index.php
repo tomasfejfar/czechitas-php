@@ -12,7 +12,7 @@ $hobbies = [
 
 <h2>Záliby</h2>
 <ul>
-    <li><?= $hobbies[0] ?></li>
-    <li><?= $hobbies[1] ?></li>
-    <li><?= $hobbies[2] ?></li>
+    <?php foreach ($hobbies as $hobby) {
+        echo '<li>' . $hobby . '</li>';
+    } ?>
 </ul>
