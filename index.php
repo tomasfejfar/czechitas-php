@@ -3,6 +3,8 @@
 $isConditionFulfilled = false;
 if ($isConditionFulfilled) {
     echo 'Podmínka byla splněna';
+} else {
+    echo 'Podmínka nebyla splněna';
 }
 
 die('Tady končíme');
