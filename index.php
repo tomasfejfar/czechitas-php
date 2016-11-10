@@ -1,5 +1,5 @@
 <?php
-$name = $_GET['name '];
+$name = $_GET['name'];
 $greeting = 'Hello ' . $name;
 
 $hobbies = [
@@ -25,7 +25,7 @@ $friends = [
     ],
 ];
 ?>
-<h1><?= $greeting ?></h1>
+<h1><?= htmlspecialchars($greeting) ?></h1>
 
 <h2>O mně</h2>
 <ul>
