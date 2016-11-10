@@ -1,5 +1,5 @@
 <?php
-$name = 'Tom';
+$name = $_GET['name '];
 $greeting = 'Hello ' . $name;
 
 $hobbies = [
