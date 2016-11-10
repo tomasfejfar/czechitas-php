@@ -10,8 +10,8 @@ $hobbies = [
 ];
 
 $me = [
-    'Tomáš',
-    'Fejfar',
+    'Jméno' => 'Tomáš',
+    'Příjmení' => 'Fejfar',
 ];
 ?>
 <h1><?= $greeting ?></h1>
