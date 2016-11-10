@@ -6,6 +6,7 @@ $hobbies = [
     'trekking',
     'programování',
     'školení',
+    'procházky',
 ];
 ?>
 <h1><?= $greeting ?></h1>
