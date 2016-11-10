@@ -1,4 +1,6 @@
 <?php
+
+die('Tady končíme');
 $name = $_GET['name'];
 $greeting = 'Hello ' . $name;
 
