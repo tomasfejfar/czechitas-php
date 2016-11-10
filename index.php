@@ -1,5 +1,10 @@
 <?php
 
+$isConditionFulfilled = true;
+if ($isConditionFulfilled) {
+    echo 'Podmínka byla splněna';
+}
+
 die('Tady končíme');
 $name = $_GET['name'];
 $greeting = 'Hello ' . $name;
