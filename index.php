@@ -13,7 +13,7 @@ $hobbies = [
 
 <h2>Záliby</h2>
 <ul>
-    <?php foreach ($hobbies as $hobby) {
-        echo '<li>' . $hobby . '</li>';
-    } ?>
+    <?php foreach ($hobbies as $hobby) { ?>
+        <li><?= $hobby ?></li>
+    <?php } ?>
 </ul>
