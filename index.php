@@ -17,6 +17,7 @@ $me = [
 <h1><?= $greeting ?></h1>
 
 <h2>O mně</h2>
+<?= $me['Příjmení'] ?>
 <ul>
     <?php foreach ($me as $characteristic) { ?>
         <li><?= $characteristic ?></li>
