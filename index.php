@@ -1,6 +1,6 @@
 <?php
 
-$isConditionFulfilled = true;
+$isConditionFulfilled = false;
 if ($isConditionFulfilled) {
     echo 'Podmínka byla splněna';
 }
