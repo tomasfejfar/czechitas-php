@@ -8,10 +8,7 @@
     <title>Document</title>
 </head>
 <body>
-    <ul>
-        <li><a href="/">Hlavní stránka</a></li>
-        <li><a href="/?page=o-mne">O mně</a></li>
-    </ul>
+    <?php require 'views/menu.php' ?>
     <h1><?= htmlspecialchars($greeting) ?></h1>
 
     <h2>O mně</h2>
