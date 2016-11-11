@@ -9,7 +9,12 @@
 </head>
 <body>
     <?php require 'views/menu.php' ?>
+
+    <?php if (empty($_GET['page'])) { ?>
+
     <h1><?= htmlspecialchars($greeting) ?></h1>
+
+    <?php } else { ?>
 
     <h2>O mně</h2>
     <ul>
@@ -32,5 +37,7 @@
             <li><?= $hobby ?></li>
         <?php } ?>
     </ul>
+
+    <?php } ?>
 </body>
 </html>
