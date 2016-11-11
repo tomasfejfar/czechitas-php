@@ -8,6 +8,9 @@ if (empty($_GET['page'])) {
         case 'o-mne':
             require 'controllers/o-mne.php';
             break;
+        case 'kontakt':
+            require 'controllers/kontakt.php';
+            break;
         default:
             die('Tato stránka neexistuje');
     }
