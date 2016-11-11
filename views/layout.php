@@ -10,14 +10,10 @@
 <body>
     <?php require 'views/menu.php' ?>
 
-    <?php if (empty($_GET['page'])) { ?>
-
-    <?php require 'views/hlavni.php' ?>
-
-    <?php } else { ?>
-
-    <?php require 'views/o-mne.php' ?>
-
-    <?php } ?>
+    <?php if (empty($_GET['page'])) {
+        require 'views/hlavni.php';
+    } else {
+        require 'views/o-mne.php';
+    } ?>
 </body>
 </html>
