@@ -3,12 +3,11 @@
 $isConditionFulfilled = empty($_GET['name']);
 if ($isConditionFulfilled) {
     echo 'Podmínka byla splněna - NAME je prázdné';
+    $name = 'World';
 } else {
     echo 'Podmínka nebyla splněna - NAME je plné';
+    $name = $_GET['name'];
 }
-
-die('Tady končíme');
-$name = $_GET['name'];
 $greeting = 'Hello ' . $name;
 
 $hobbies = [
