@@ -12,7 +12,7 @@
 
     <?php if (empty($_GET['page'])) { ?>
 
-    <h1><?= htmlspecialchars($greeting) ?></h1>
+    <?php require 'views/hlavni.php' ?>
 
     <?php } else { ?>
 
