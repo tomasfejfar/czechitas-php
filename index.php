@@ -1,5 +1,6 @@
 <?php
 
+if (empty($_GET['page'])) {
 if (empty($_GET['name'])) {
     $name = 'World';
 } else {
@@ -7,6 +8,7 @@ if (empty($_GET['name'])) {
 }
 $greeting = 'Hello ' . $name;
 
+} else {
 $hobbies = [
     'trekking',
     'programování',
@@ -29,4 +31,5 @@ $friends = [
         'surname' => 'Kormaňák',
     ],
 ];
+}
 require 'views/layout.php';
