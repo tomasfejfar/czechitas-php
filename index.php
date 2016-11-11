@@ -1,10 +1,10 @@
 <?php
 
-$isConditionFulfilled = 0;
+$isConditionFulfilled = empty($_GET['name']);
 if ($isConditionFulfilled) {
-    echo 'Podmínka byla splněna';
+    echo 'Podmínka byla splněna - NAME je prázdné';
 } else {
-    echo 'Podmínka nebyla splněna';
+    echo 'Podmínka nebyla splněna - NAME je plné';
 }
 
 die('Tady končíme');
