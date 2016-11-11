@@ -7,6 +7,7 @@ if (empty($_GET['page'])) {
         $name = $_GET['name'];
     }
     $greeting = 'Hello ' . $name;
+    $template = 'hlavni';
 } else {
     $hobbies = [
         'trekking',
@@ -30,5 +31,6 @@ if (empty($_GET['page'])) {
             'surname' => 'Kormaňák',
         ],
     ];
+    $template = 'o-mne';
 }
 require 'views/layout.php';
