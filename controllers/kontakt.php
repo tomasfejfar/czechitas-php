@@ -1,3 +1,6 @@
 <?php
 $template = 'kontakt';
-var_dump($_POST);
+if (count($_POST)) {
+    var_dump($_POST);
+}
+
