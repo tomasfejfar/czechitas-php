@@ -1,7 +1,6 @@
 <?php
 
-$isConditionFulfilled = empty($_GET['name']);
-if ($isConditionFulfilled) {
+if (empty($_GET['name'])) {
     $name = 'World';
 } else {
     $name = $_GET['name'];
