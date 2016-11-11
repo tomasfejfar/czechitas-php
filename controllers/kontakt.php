@@ -1,1 +1,2 @@
 <?php
+$template = 'kontakt';
