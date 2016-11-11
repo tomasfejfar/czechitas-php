@@ -16,6 +16,9 @@ if (empty($_GET['page'])) {
         case 'podekovani':
             require 'controllers/podekovani.php';
             break;
+        case 'clanek':
+            require 'controllers/clanek.php';
+            break;
         default:
             die('Tato stránka neexistuje');
     }
